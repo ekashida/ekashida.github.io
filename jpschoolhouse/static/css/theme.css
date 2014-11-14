@@ -3,7 +3,7 @@ body {
 }
 
 body:after {
-  background-image: url(static/images/wallpaper_hiyoko.gif);
+  background-image: url(../../static/images/wallpaper_hiyoko.gif);
   content: "";
   opacity: 0.1;
   position: fixed;
