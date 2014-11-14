@@ -49,6 +49,8 @@
 .teacher-avatar {
   float: left;
   margin-right: 1em;
+  height: 100px;
+  width: 100px;
 }
 
 #contact dd {
