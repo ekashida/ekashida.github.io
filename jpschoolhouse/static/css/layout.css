@@ -10,14 +10,6 @@
   padding: 0 1em;
 }
 
-.brand-title {
-  font-size: 1.5em;
-}
-
-.brand-tagline {
-  font-size: 1em;
-}
-
 .brand-title,
 .brand-tagline {
   margin: 0;
@@ -50,9 +42,17 @@
   padding: 0.5em;
 }
 
+.schedule-time {
+  width: 6em;
+}
+
 .teacher-avatar {
   float: left;
   margin-right: 1em;
+}
+
+#contact dd {
+  margin: 0 0 1em 0;
 }
 
 /* Same as default media query for `md` */
@@ -71,14 +71,6 @@
     /* 37.5% derived from #sidebar class .pure-u-md-3-8 where 3/8 => 0.375 */
     margin-left: 37.5%;
     padding: 0 3em;
-  }
-
-  .brand-title {
-    font-size: 2em;
-  }
-
-  .brand-tagline {
-    font-size: 1.5em;
   }
 
   .nav-item {

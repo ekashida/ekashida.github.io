@@ -10,6 +10,11 @@ h3 {
   font-weight: 500;
 }
 
+a {
+  color: #0099cc;
+  text-decoration: none;
+}
+
 #sidebar {
   background-color: #EFFFEF;
   text-align: center;
@@ -17,18 +22,18 @@ h3 {
 
 .brand-title {
   color: #fc0606;
+  font-size: 1.5em;
   text-transform: uppercase;
 }
 
 .brand-tagline {
+  font-size: 1em;
   font-weight: 300;
   color: #777;
 }
 
 .nav-item a {
-  color: #0099cc;
   font-weight: 700;
-  text-decoration: none;
 }
 
 @media (min-width: 48em) {
@@ -42,6 +47,14 @@ h3 {
     right: 62.5%;
     bottom: 0;
     left: 0;
+  }
+
+  .brand-title {
+    font-size: 2em;
+  }
+
+  .brand-tagline {
+    font-size: 1.5em;
   }
 
 }
