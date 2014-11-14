@@ -50,6 +50,11 @@
   padding: 0.5em;
 }
 
+.teacher-avatar {
+  float: left;
+  margin-right: 1em;
+}
+
 /* Same as default media query for `md` */
 @media (min-width: 48em) {
   #header {
