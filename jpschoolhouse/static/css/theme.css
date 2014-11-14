@@ -1,0 +1,40 @@
+body {
+  color: #444;
+}
+
+body:after {
+  background-image: url(static/images/wallpaper_hiyoko.gif);
+  content: "";
+  opacity: 0.1;
+  position: fixed;
+  top: 0;bottom: 0; right: 0; left: 0;
+}
+
+h2, h3 {
+  color: #fc0606;
+}
+
+h3 {
+  font-weight: 500;
+}
+
+#sidebar {
+  background-color: #EFFFEF;
+  text-align: center;
+}
+
+.brand-title {
+  color: #fc0606;
+  text-transform: uppercase;
+}
+
+.brand-tagline {
+  font-weight: 300;
+  color: #777;
+}
+
+.nav-item a {
+  color: #0099cc;
+  font-weight: 700;
+  text-decoration: none;
+}

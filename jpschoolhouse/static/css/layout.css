@@ -1,0 +1,89 @@
+#layout {
+  min-width: 300px;
+}
+
+#header {
+  margin: 2em auto 0;
+}
+
+#main {
+  padding: 0 1em;
+}
+
+.brand-title {
+  font-size: 1.5em;
+}
+
+.brand-tagline {
+  font-size: 1em;
+}
+
+.brand-title,
+.brand-tagline {
+  margin: 0;
+}
+
+#nav {
+  padding: 0.7em;
+}
+
+#nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  list-style-type: none;
+  line-height: 1.5em;
+  margin: 0 0.3em;
+}
+
+.nav-item a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+
+.schedule-time,
+.schedule-activity {
+  padding: 0.5em;
+}
+
+/* Same as default media query for `md` */
+@media (min-width: 48em) {
+  #header {
+    margin: 40% 0 2em;
+  }
+
+  #sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+  }
+
+  #main {
+    /* 37.5% derived from #sidebar class .pure-u-md-3-8 where 3/8 => 0.375 */
+    margin-left: 37.5%;
+    padding: 0 3em;
+  }
+
+  .brand-title {
+    font-size: 2em;
+  }
+
+  .brand-tagline {
+    font-size: 1.5em;
+  }
+
+  .nav-item {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 0;
+  }
+
+  .schedule-time,
+  .schedule-activity {
+    padding: 0.5em;
+  }
+}
