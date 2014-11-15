@@ -53,6 +53,10 @@
   width: 100px;
 }
 
+#contact dt:after {
+  content: ":";
+}
+
 #contact dd {
   margin: 0 0 1em 0;
 }

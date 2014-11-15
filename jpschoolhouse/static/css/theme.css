@@ -1,13 +1,15 @@
 body {
+  background-image: url(../../static/images/wallpaper_hiyoko.gif);
   color: #444;
 }
 
 h2, h3 {
   color: #fc0606;
+  font-weight: 400;
 }
 
-h3 {
-  font-weight: 500;
+h2 {
+  font-size: 1.7em;
 }
 
 a {
@@ -16,8 +18,12 @@ a {
 }
 
 #sidebar {
-  background-color: #EFFFEF;
+  background-color: rgba(239, 255, 239, 0.9);
   text-align: center;
+}
+
+#main {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 .brand-title {
@@ -37,17 +43,6 @@ a {
 }
 
 @media (min-width: 48em) {
-
-  body:after {
-    background-image: url(../../static/images/wallpaper_hiyoko.gif);
-    content: "";
-    opacity: 0.1;
-    position: fixed;
-    top: 0;
-    right: 62.5%;
-    bottom: 0;
-    left: 0;
-  }
 
   .brand-title {
     font-size: 2em;
