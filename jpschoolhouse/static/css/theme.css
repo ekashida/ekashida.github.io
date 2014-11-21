@@ -56,6 +56,12 @@ a {
     font-size: 1.5em;
   }
 
+  /* flip icon */
+  .nav-item:before {
+    transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+  }
+
   .nav-item:before {
     content: "";
     display: inline-block;
