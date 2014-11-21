@@ -8,6 +8,10 @@ h3 {
   padding-left: 40px;
 }
 
+ul {
+  padding-left: 1.5em;
+}
+
 #layout {
   min-width: 300px;
 }
@@ -36,7 +40,6 @@ h3 {
 
 .nav-item {
   display: inline-block;
-  list-style-type: none;
   line-height: 1.5em;
   margin: 0 0.5em;
 }
@@ -57,12 +60,17 @@ h3 {
   width: 100px;
 }
 
-#contact dt:after {
-  content: ":";
-}
-
 #contact dd {
   margin: 0 0 1em 0;
+}
+
+.gallery-list {
+  padding: 0;
+}
+
+.gallery-button {
+  border: none;
+  padding: 0.5em 0;
 }
 
 /* Same as default media query for `md` */
