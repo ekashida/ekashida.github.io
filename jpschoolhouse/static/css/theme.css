@@ -9,7 +9,16 @@ h1, h2, h3 {
 }
 
 h2 {
-  font-size: 1.5em;
+  background: url(../../static/images/icon_hitode.gif) no-repeat;
+  line-height: 36px;
+  padding: 0 40px;
+  text-transform: uppercase;
+}
+
+h3 {
+  background: url(../../static/images/icon_kani.gif) no-repeat;
+  line-height: 32px;
+  padding: 0 40px;
 }
 
 a {
@@ -47,16 +56,28 @@ a {
     font-size: 1.5em;
   }
 
-  .nav-item:before,
+  .nav-item:before {
+    content: "";
+    display: inline-block;
+    position: relative;
+
+    height: 32px;
+    width: 32px;
+
+    top: 0.7em;
+    left: -1em;
+  }
+
   .nav-item:after {
     content: "";
     display: inline-block;
     position: relative;
-    top: 0.7em;
 
-    /* 2em is 32px for base pixel of 16px */
-    width: 2em;
-    height: 2em;
+    height: 32px;
+    width: 32px;
+
+    top: 0.7em;
+    right: -1em;
   }
 
   .nav-item:nth-child(n+1):before,
