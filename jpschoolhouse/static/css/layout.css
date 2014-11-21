@@ -31,12 +31,6 @@
   margin: 0 0.3em;
 }
 
-.nav-item a {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-}
-
 .schedule-time,
 .schedule-activity {
   padding: 0.5em;
@@ -81,8 +75,8 @@
 
   .nav-item {
     display: block;
+    line-height: 3em;
     margin: 0 auto;
-    padding: 0.5em 0;
   }
 
   .schedule-time,

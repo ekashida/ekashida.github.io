@@ -47,4 +47,36 @@ a {
     font-size: 1.5em;
   }
 
+  .nav-item:before,
+  .nav-item:after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    top: 0.7em;
+
+    /* 2em is 32px for base pixel of 16px */
+    width: 2em;
+    height: 2em;
+  }
+
+  .nav-item:nth-child(n+1):before,
+  .nav-item:nth-child(n+1):after {
+    background: url(../../static/images/icon_hiyoko_blue.gif) no-repeat;
+  }
+
+  .nav-item:nth-child(2n+1):before,
+  .nav-item:nth-child(2n+1):after {
+    background: url(../../static/images/icon_hiyoko_darkblue.gif) no-repeat;
+  }
+
+  .nav-item:nth-child(3n+1):before,
+  .nav-item:nth-child(3n+1):after {
+    background: url(../../static/images/icon_hiyoko_orange.gif) no-repeat;
+  }
+
+  .nav-item:nth-child(4n+1):before,
+  .nav-item:nth-child(4n+1):after {
+    background: url(../../static/images/icon_hiyoko_red.gif) no-repeat;
+  }
+
 }
