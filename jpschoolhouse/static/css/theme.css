@@ -11,14 +11,13 @@ h1, h2, h3 {
 h2 {
   background: url(../../static/images/icon_hitode.gif) no-repeat;
   line-height: 36px;
-  padding: 0 40px;
-  text-transform: uppercase;
+  padding-left: 40px;
 }
 
 h3 {
   background: url(../../static/images/icon_kani.gif) no-repeat;
   line-height: 32px;
-  padding: 0 40px;
+  padding-left: 40px;
 }
 
 a {
