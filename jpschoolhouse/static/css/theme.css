@@ -3,13 +3,13 @@ body {
   color: #444;
 }
 
-h2, h3 {
+h1, h2, h3 {
   color: #fc0606;
   font-weight: 400;
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 
 a {
@@ -27,7 +27,6 @@ a {
 }
 
 .brand-title {
-  color: #fc0606;
   font-size: 1.5em;
   text-transform: uppercase;
 }
@@ -36,10 +35,6 @@ a {
   font-size: 1em;
   font-weight: 300;
   color: #777;
-}
-
-.nav-item a {
-  font-weight: 700;
 }
 
 @media (min-width: 48em) {
