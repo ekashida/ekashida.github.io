@@ -8,18 +8,6 @@ h1, h2, h3 {
   font-weight: 400;
 }
 
-h2 {
-  background: url(../../static/images/icon_hitode.gif) no-repeat;
-  line-height: 36px;
-  padding-left: 40px;
-}
-
-h3 {
-  background: url(../../static/images/icon_kani.gif) no-repeat;
-  line-height: 32px;
-  padding-left: 40px;
-}
-
 a {
   color: #0099cc;
   text-decoration: none;
@@ -43,6 +31,22 @@ a {
   font-size: 1em;
   font-weight: 300;
   color: #777;
+}
+
+.icon-hitode {
+  background: url(../../static/images/icon_hitode.gif) no-repeat;
+}
+
+.icon-kani {
+  background: url(../../static/images/icon_kani.gif) no-repeat;
+}
+
+.icon-kujira {
+  background: url(../../static/images/icon_kujira.gif) no-repeat;
+}
+
+.icon-iruka {
+  background: url(../../static/images/icon_iruka.gif) no-repeat;
 }
 
 @media (min-width: 48em) {

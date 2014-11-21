@@ -1,3 +1,13 @@
+h2 {
+  line-height: 36px;
+  padding-left: 40px;
+}
+
+h3 {
+  line-height: 32px;
+  padding-left: 40px;
+}
+
 #layout {
   min-width: 300px;
 }
