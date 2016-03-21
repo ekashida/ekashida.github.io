@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<script>
+window.onerror = function (message, url, line, col, err) {
+  try {
+    throw new Error(message);
+  } catch (ex) {
+    console.log(JSON.stringify({
+      message: message,
+      url: url,
+      line: line,
+      column: col,
+      err: err,
+      stack: ex.stack,
+    }, null, 2));
+  }
+};
+
+function foo () {
+  bar();
+}
+
+function bar () {
+  baz();
+}
+
+function baz () {
+  bif();
+}
+
+foo();
+</script>
+</body>
+</html>
